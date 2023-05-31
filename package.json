@@ -1,0 +1,23 @@
+{
+  "name": "anglelove2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.1.0",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "prisma": "^4.15.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.15.0"
+  },
+  "type": "module"
+}
