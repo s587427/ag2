@@ -20,11 +20,11 @@ app.get("/validation", async (req, res, next) => {
             activations.machineCode === machineCode && activations.secrectKey === secrectKey
     )
 
-    // result.length > 0
-    //     ? res.send({ status: true, data: result })
-    //     : res.send({ status: false, data: "validation error" })
+    result.length > 0
+        ? res.send({ status: true, data: result })
+        : res.send({ status: false, data: "validation error" })
 
-    res.send(result.length > 0)
+    // res.send(result.length > 0)
 })
 
 app.get("/create", async (req, res, next) => {
